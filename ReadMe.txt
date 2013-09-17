@@ -37,4 +37,15 @@ StdAfx.h, StdAfx.cpp
     These files are used to build a precompiled header (PCH) file
     named APM.pch and a precompiled types file named StdAfx.obj.
 
-/////////////////////////////////////////////////////////////////////////////
+//////////////////////////
+///////////////////////////////////////////////////
+
+สิ่งสำคัญต้องคำนึง
+1.จะต้องมีไฟล์ amp.ini
+2.ต้อง set environment  variables       
+-$(Opencv245_build) path ที่เก็บ  .h ไฟล์ทั้งหมด = D:\joe\opencv2.4.5\build
+-$(Opencv245_32_dir) path ที่เก็บ library 32 bit  = D:\joe\BuildOpencv\opencv245\NoCuda_NoTBB_32
+-$(Opencv245_dir) path ที่เก็บ library 32 bit = D:\joe\BuildOpencv\opencv245\NoCuda_NoTBB_64
+3.ไฟล์ dll ที่ต้องเรียกใช้ทั้งหมด
+
+

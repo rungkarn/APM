@@ -10,7 +10,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_core245.lib;opencv_highgui245.lib;opencv_imgproc245.lib;opencv_features2d245.lib;opencv_calib3d245.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ClCompile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
